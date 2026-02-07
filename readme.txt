@@ -22,19 +22,13 @@ Install the Shelby Protocol SDK and the Aptos TS SDK:
 
 ```bash
 pnpm install @shelby-protocol/solana-kit @aptos-labs/ts-sdk
-
+IF THIS DON'T WORK CHECK OUT setup.txt
 ```
 
 #### 3. Configuration
 
-Create a `.env` file in your root directory:
+follow setup.txt
 
-```env
-APTOS_NETWORK=shelbynet
-SHELBY_API_KEY=your_api_key_here
-APTOS_NODE_URL=https://api.shelbynet.shelby.xyz/v1
-
-```
 
 ### 🛠️ Basic Usage
 
@@ -90,4 +84,5 @@ console.log(`Aptos Storage Address: ${storageAccount.address}`);
 Would you like me to add a section on **Token Gating** or **Pay-to-Unlock** features, which are also supported by Shelby?
 
 [Aptos Developer Setup: How to Install and Configure the Aptos CLI](https://www.youtube.com/watch?v=E36X1dSsudo)
+
 This video provides a foundational guide on setting up the Aptos environment, which is necessary for managing the coordination layer of ShelbyNet.
